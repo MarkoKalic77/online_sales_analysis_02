@@ -10,3 +10,5 @@ class ProductManager:
         for i in self.products:
             suma+=i.price*i.quantity
         print(f"{suma}")
+    def uklanjanje_proizvoda(self,ime):
+        self.products.remove(ime)
