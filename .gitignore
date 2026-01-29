@@ -1,2 +1,6 @@
 #ignorisanje fajla sa snimcima ekrana
 snimci ekrana.docx
+#ignorisanje config.json
+*.json
+#ignorisanje fajla sa linkom
+link.txt
